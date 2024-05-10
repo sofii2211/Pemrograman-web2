@@ -1,0 +1,65 @@
+/* General styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Set minimum height for full viewport */
+    background-color: lightblue;/* Light gray background */
+  }
+  
+  /* Login container */
+  .login-container {
+    background-color: aliceblue; /* White background for the login form */
+    padding: 30px; /* Add some padding */
+    border-radius: 8%; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    width: 40%;
+  }
+  
+  /* Login title */
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: darkblue;
+  }
+  
+  /* Input groups */
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  /* Labels */
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Input fields */
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box; /* Include padding in width calculation */
+  }
+  
+  /* Button */
+  button[type="submit"] {
+    background-color: darkblue; /* Blue background */
+    color: white; /* White text */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out; /* Add a smooth hover effect */
+  }
+  
+  button[type="submit"]:hover {
+    background-color: lightblue; /* Darker blue on hover */
+  }
+  
